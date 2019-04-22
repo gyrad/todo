@@ -7,7 +7,8 @@ class App extends Component {
 
     state = {
         todoItems: [],
-        serialNum: 0
+        serialNum: 0,
+        visibility: 'all'
     };
 
     addTodoItem = (todo) => {
@@ -37,6 +38,12 @@ class App extends Component {
         });
     };
 
+    setVisibility = visibility => {
+        this.setState({
+            visibility
+        });
+    }
+
     render() {
         console.log(this.state);
         return (
@@ -48,6 +55,8 @@ class App extends Component {
                         items={this.state.todoItems}
                         remove={this.removeTodoItem}
                         toggleCompleted={this.toggleCompleted}
+                        setVisibility={this.setVisibility}
+                        visibility={this.state.visibility}
                     />
                 </div>
             </div>
