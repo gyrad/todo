@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/todo/static/js/runtime~main.7a2dc5ec.js"
   },
   {
-    "revision": "a1f11055ea3336a126f4",
-    "url": "/todo/static/js/main.c4842dc9.chunk.js"
+    "revision": "f7d94ec75f589dccb91f",
+    "url": "/todo/static/js/main.454cb84f.chunk.js"
   },
   {
     "revision": "123fb41c3fb46a6d1e24",
     "url": "/todo/static/js/2.a5adb38c.chunk.js"
   },
   {
-    "revision": "7562ffebc33a4594624adbe560779c5f",
+    "revision": "53b1f1f8de36af8b600782156cf418ac",
     "url": "/todo/index.html"
   }
 ];
